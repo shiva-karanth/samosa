@@ -150,6 +150,103 @@ h6
 {
     opacity: 1;
 }
-  
+@media only screen and (max-width:768px)
+{
+.ponnu
+{
+    display: none;
+}
+.cheff
+{
+   display: none;
+}
 
-  
+.card 
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 7px; /* 5px rounded corners */
+    color: #d0b439;
+    position: relative;
+    width: 80%;
+    margin: 3px auto;
+   
+}
+.card:hover 
+    {
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    }
+
+    .tut 
+    {   
+        width: 250px;
+        padding-bottom: 4px;
+        padding-top:4px;
+        margin: auto;
+        width: 70%;
+        opacity: 1;
+        border-radius: 5px 5px 0 0;
+    }
+ .heading
+ {
+     text-align: left;
+     padding-left: 4px;
+     padding-top: 10px;
+     color:#E35407;
+     text-decoration: none;
+     font-size: 2 rem;
+     display:inline-block;
+     left: 4px;
+     background-color: #fff;
+ }
+ .resp1
+ {
+    text-align: left;
+    padding-left: 4px;
+    padding-top: 10px;
+    color:#E35407;
+    text-decoration: none;
+    font-size: 2 rem;
+    display:inline-block;
+    left: 4px;
+    background-color: #fff;
+ }
+ .resp2
+ {
+     text-align: left;
+     padding-top: 5px;
+     padding-left: 3px;
+ }
+.resp3
+{
+    display: flex;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #963500;
+}
+.resp4
+{
+    text-align: left;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #963500;
+    padding-left: 4px;
+}
+.resp5
+{
+    text-align: left;
+    padding-right: 170px;
+    list-style-type: circle;
+}
+.resp6
+{
+    text-align: left;
+    padding-right: 100px;
+    list-style-type: circle;
+}
+.ohk
+{
+    display:none ;
+}
+
+}
