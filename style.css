@@ -1,6 +1,6 @@
 
 body{
-   background-color: #C0FEFC;
+   background-color: #DBC8AC;
  }
 h1
 {
@@ -25,7 +25,7 @@ h1
    background: #334443;
    border-radius: 7px 7px 0px 0px;
    padding: 10px;
-   color: #fff;
+   color: #ffffff;
    text-align: center;
    font-family: "Rubik";
 }
@@ -66,7 +66,7 @@ details summary{
 }
 .khikhi:hover
 {
-  color: violet;
+  color: #8F00FF;
 }
 .bot
 {
