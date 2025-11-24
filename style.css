@@ -1,4 +1,3 @@
-
 body{
    background-color: #DBC8AC;
  }
@@ -239,4 +238,25 @@ details summary{
 .combo
 {
   background-color: #292826;
+}
+
+/* Responsive adjustments: place the cartoon below the nutrition facts on small screens */
+@media (max-width: 767.98px) {
+  .performance-facts {
+    float: none;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
+  .hi {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .toon {
+    padding: 0.5rem 0 1rem 0; /* small vertical spacing */
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
 }
